@@ -1,0 +1,64 @@
+:root{
+    --primary-color: #333;
+    --active-color: #e3e492cd;
+}
+
+body {
+    font-family: "Open sans", sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/* header */
+.header{
+    margin: 24px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header img {
+    width: 150px;
+    margin-left: 24px;
+}
+
+/* menu */
+.header .main-menu {
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+.active{
+    background-color: var(--active-color);
+
+}
+
+/* section 1 */
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.section-1 h2{
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    margin: 80px;
+
+}

@@ -1,6 +1,8 @@
 :root{
     --primary-color: #333;
     --active-color: #f5f6b9cd;
+    --max-width: 1200px;
+    --main-padding: 24px;
 }
 
 body {
@@ -81,10 +83,19 @@ a {
 
 }
 
-
+/* card span */
 .section-1 .card-span {
    background-color: var(--active-color);
     justify-content: center;
     padding: 12px;
-    margin-top: 24px;
+    margin-top: var(--main-padding);
+}
+
+
+/* container */
+
+.container{
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--main-padding);
 }

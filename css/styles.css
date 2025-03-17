@@ -1,6 +1,6 @@
 :root{
     --primary-color: #333;
-    --active-color: #e3e492cd;
+    --active-color: #f5f6b9cd;
 }
 
 body {
@@ -8,7 +8,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-
+    line-height: 1.6;
 }
 
 
@@ -30,7 +30,14 @@ a {
 
 .header img {
     width: 150px;
-    margin-left: 24px;
+    /* margin-left: 24px; */
+}
+
+
+.header .header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* menu */
@@ -39,10 +46,20 @@ a {
     gap: 1rem;
 }
 
+.header .main-menu a{
+    padding: 12px;
+    color: var(--primary-color);
+}
+
+.header .main-menu a:hover{
+    background-color: var(--active-color);
+}
+
 
 
 .active{
     background-color: var(--active-color);
+    font-weight: 600;
 
 }
 
@@ -60,5 +77,14 @@ a {
     font-weight: normal;
     text-align: center;
     margin: 80px;
+    line-height: 1.6;
 
+}
+
+
+.section-1 .card-span {
+   background-color: var(--active-color);
+    justify-content: center;
+    padding: 12px;
+    margin-top: 24px;
 }

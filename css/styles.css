@@ -99,3 +99,26 @@ a {
     margin: 0 auto;
     padding: 0 var(--main-padding);
 }
+
+
+/* Start from Galery */
+
+/* gallery */
+
+.gallery-flex{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.gallery-item{
+ 
+}
+
+.gallery-item img{
+
+    border-radius: 10px;
+
+}
